@@ -1,5 +1,5 @@
 #!name=💌Daily
-#!desc=〽Daily for my life.
+#!desc=Daily〽 for my life.
 #!system=ios
 [Script]
 一言+历史上的今天 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Meeta/Surge/Scripting/Calendar.js,type=cron,cronexp=1 8 * * *
