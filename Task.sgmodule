@@ -1,0 +1,5 @@
+一言+历史上的今天 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Meeta/Surge/Scripting/Calendar.js,type=cron,cronexp=1 8 * * *
+每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,type=cron,cronexp=30 7 * * *
+倒数日 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/daysmatter.js,tag=倒数日,type=cron,cronexp=2 8 * * *
+Epic周免= type=cron,cronexp=0 12 * * 5,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/epic.js
+汇率监控= type=cron,cronexp=30 8 * * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/exchange.js
