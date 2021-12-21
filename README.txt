@@ -31,6 +31,13 @@ systemctl restart snell
 查看Snell运行状态：
 
 systemctl status snell
+
+卸载
+
+wget —no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.com/primovist/snell.sh/master/uninstall-snell.sh
+chmod +x uninstall-snell.sh
+./uninstall-snell.sh
+
 TIPS：
 sysctl -w net.core.rmem_max=26214400
 sysctl -w net.core.rmem_default=26214400
