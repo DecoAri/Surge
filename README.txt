@@ -13,12 +13,12 @@ DivineEngine
 ########snell
 snell Debian安装
 amd版
-wget —no-check-certificate -O snell.sh https://raw.githubusercontent.com/primovist/snell.sh/master/snell.sh
+wget —no-check-certificate -O snell.sh https://raw.githubusercontent.com/DecoAri/Surge/master/snell.sh
 chmod +x snell.sh
 ./snell.sh
 
 arm版
-wget —no-check-certificate -O snell.sh https://raw.githubusercontent.com/primovist/snell.sh/master/snell-arm.sh
+wget —no-check-certificate -O snell.sh https://raw.githubusercontent.com/DecoAri/Surge/master/snell-arm.sh
 chmod +x snell.sh
 ./snell.sh
 
