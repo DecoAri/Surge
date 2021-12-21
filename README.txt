@@ -24,7 +24,7 @@ chmod +x snell.sh
 
 修改端口号
 
-vi /etc/snell/snell-server.conf
+nano /etc/snell/snell-server.conf
 systemctl restart snell
  
 
