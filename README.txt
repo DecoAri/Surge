@@ -26,7 +26,9 @@ chmod +x snell.sh
 
 nano /etc/snell/snell-server.conf
 systemctl restart snell
- 
+
+开机自启
+systemctl enable snell
 
 查看Snell运行状态：
 
