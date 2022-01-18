@@ -24,9 +24,20 @@ systemctl status snell
 
 卸载
 
-wget —no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.com/primovist/snell.sh/master/uninstall-snell.sh
+#!/usr/bin/env bash
+PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
+export PATH
+systemctl stop snell
+systemctl disable snell
+rm -f /etc/systemd/snell.service
+rm -f /usr/bin/snell-server
+rm -f /etc/snell/snell-server.conf
+rm -rf /etc/snell/
+
+wget —no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.com/DecoAri/Surge/master/uninstall-snell.sh
 chmod +x uninstall-snell.sh
 ./uninstall-snell.sh
+
 
 TIPS：
 sysctl -w net.core.rmem_max=26214400
