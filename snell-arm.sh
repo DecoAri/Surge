@@ -24,7 +24,8 @@ if [ -f ${CONF} ]; then
   echo "[snell-server]" >>${CONF}
   echo "listen = 0.0.0.0:13254" >>${CONF}
   echo "psk = ${PSK}" >>${CONF}
-  echo "obfs = tls" >>${CONF}
+  echo "obfs = http" >>${CONF}
+  echo "ipv6 = false" >>${CONF}
 fi
 if [ -f ${SYSTEMD} ]; then
   echo "Found existing service..."
