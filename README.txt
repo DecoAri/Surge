@@ -1,12 +1,12 @@
 ########snell
 snell Debian安装
 amd版
-wget —no-check-certificate -O snell.sh https://raw.githubusercontent.com/DecoAri/Surge/master/snell.sh
+wget —-no-check-certificate -O snell.sh https://raw.githubusercontent.com/DecoAri/Surge/master/snell.sh
 chmod +x snell.sh
 ./snell.sh
 
 arm版
-wget —no-check-certificate -O snell.sh https://raw.githubusercontent.com/DecoAri/Surge/master/snell-arm.sh
+wget —-no-check-certificate -O snell.sh https://raw.githubusercontent.com/DecoAri/Surge/master/snell-arm.sh
 chmod +x snell.sh
 ./snell.sh
 
@@ -34,7 +34,7 @@ rm -f /usr/bin/snell-server
 rm -f /etc/snell/snell-server.conf
 rm -rf /etc/snell/
 
-wget —no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.com/DecoAri/Surge/master/uninstall-snell.sh
+wget —-no-check-certificate -O uninstall-snell.sh https://raw.githubusercontent.com/DecoAri/Surge/master/uninstall-snell.sh
 chmod +x uninstall-snell.sh
 ./uninstall-snell.sh
 
